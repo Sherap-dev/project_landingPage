@@ -5,16 +5,13 @@
     font-family: "roboto", Arial, Helvetica, sans-serif;
     list-style: none;
     box-sizing: border-box;
+    background-color: #1f2937;
 }
 
 li {
     display: inline-block;
 }
-
-.top-nav {
-    background-color: #1f2937;
     
-}
 .top-nav .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -39,8 +36,33 @@ nav{
     margin-right: 10%;
 }
 
-img {
-   width: 100%;
-   height: auto;
 
+
+img {
+   width: 50%;
+   height: auto;
+   justify-content: right;
+
+}
+
+.tagline{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.tagline,.about {
+    margin: 0 10%
+}
+
+.about {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.text {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    
 }
