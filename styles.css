@@ -120,12 +120,15 @@ img {
 .cat-cont {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 40px;
 
 }
 
 
 .cat-img{
     width: 10rem;
+    min-width: 8rem;
+   
     
 
 }
@@ -133,6 +136,7 @@ img {
 .pyon-pyon {
     border-radius: 10px;
     border: 3px solid #3882f6;
+    align-items: center;
 
 }
 
@@ -149,11 +153,53 @@ img {
     margin: 0 auto;
     padding: 0 40px; 
     display: flex;
-  justify-content: center;   /* centers horizontally */
-  align-items: center;       /* centers vertically */
-  height: 100vh;             /* full screen height */
-  background-color: #f5f5f5; /* optional soft background */
-  padding: 0 20px;
-  text-align: center;
+    flex-direction: column;
+    padding: 60px;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    
+}
 
+.author {
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: end
+}
+
+.cta{
+    display: flex;
+    
+}
+
+.cta-text {
+    flex: 1;
+    height: max-content;
+    max-width: 1200px;  
+    margin: 70px auto;
+    padding: 30px 30px; 
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    color: #e5e7eb;
+}
+
+
+.signup2 {
+    background-color: #3882f6;
+    width: 6rem;
+    height: 2rem;
+    border: 2px solid white;
+    color: #e5e7eb;
+    border-radius: 6px;
+    margin: 0 40px;
+
+    
+}
+
+.text {
+   padding: 0 40px;
 }
